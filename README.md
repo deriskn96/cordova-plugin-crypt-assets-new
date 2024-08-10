@@ -3,7 +3,7 @@ HTML source file is encrypted at build, and decrypted at run.
 https://www.npmjs.com/package/cordova-plugin-crypt-file
 
 ## Add Plugin
-`cordova plugin add cordova-plugin-crypt-file`
+`cordova plugin add cordova-plugin-crypt-assets-new`
 
 ## Encrypt
 `cordova build [ios / android]`
@@ -21,6 +21,8 @@ or
 * .htm
 * .js
 * .css
+* .txt
+* .xml
 
 ### Edit subjects
 
@@ -45,7 +47,7 @@ Specify the target file as a regular expression.
 ## Supported platforms
 * iOS
 * Android
-* CrossWalk
+* Cordova 13
 
 ## Before reporting your issue
 It would be very helpful if you show me your project (If you have GitHub repository, that URL would be nice).
